@@ -33,7 +33,6 @@ function useApi<T = any, P extends any[] = []>(
     setRefetchProp(prev => !prev);
   };
 
-  // Todo: Pass function to refetch from API.
   return { response, error, loading, refetch };
 }
 
