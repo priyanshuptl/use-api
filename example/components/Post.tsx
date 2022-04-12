@@ -13,7 +13,6 @@ const Post: React.FC<PostProps> = ({
       style={{
         boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 8px 0px',
         padding: '8px',
-        marginInline: '8px',
         marginBlock: '12px',
       }}
     >
